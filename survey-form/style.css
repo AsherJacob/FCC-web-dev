@@ -1,29 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@800&display=swap');
+
+* {
+    margin  : 0;
+    padding : 0;
+    color   : #dfdfdf;
+}
+
+body, html {
+    background-color : #1B1B32;
+    height           : 100vh
+}
+
+#description {
+    font-size : 20px;
+}
+
+.grid {
+    display               : grid;
+    grid-template-columns : 50% 50%;
+}
 
 .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 500px;
-    margin: 100px auto;
-    border: 5px;
-    border-style: solid;
-    border-color: blue;
-    padding: 10px;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-evenly;
+    width           : 500px;
+    margin          : 100px auto;
+    border          : 5px;
+    border-style    : solid;
+    border-color    : blue;
+    padding         : 10px;
     
 }
 
 
 
-.title {
-    margin: auto;
-    text-align: center;
+#title {
+    margin      : 30px auto;
+    text-align  : center;
+    font-family : 'Kufam', cursive;
+    font-size   : 90px;
 }
 
 label {
-    margin: 15px 0px;
+    margin : 15px 0px;
 }
 
 .submit {
-    margin: 15px auto;
-    width: 300px;
+    margin : 15px auto;
+    width  : 300px;
 }
+
+#description {
+    text-align : center;
+}
+
+input {
+    background-color : red;
+    padding          : 5px;
+}
+
+.flex1, .flex3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+}
+
+
