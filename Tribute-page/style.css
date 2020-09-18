@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    background-color: #f5e7a8;
+}
+
+#titleContainer {
+    background-color: linear-grad;
+}
+
+#title {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12vh;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-top: 25px;
+    margin-bottom: 2px;
+}
+
+#tagline {
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 1.7rem;
+    margin: 3px;
+    padding: 5px;
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#image {
+    max-width: 60vw;
+    height: auto;
+}
+#img-caption {
+    margin-top: 20px;
+    font-size: 130%;
+    font-style: italic;
+}
+
+#tribute-info {
+    background: rgb(114,166,215);
+    color: #fff;
+    border-radius: 30px;;
+    margin: 5px 200px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.tribute-link-class {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+}
+
+.javier {
+    color: #9C2C3C;
+}
+
+.masche {
+    color: #3A4A7E;
+}
+
+.summary {
+    text-align: center;
+    font-size: 4vh;
+    color: #d5480d;
+}
+
+.summaryline {
+    width: 5vw;
+    margin: -11px auto 30px;
+}
+
+@media (max-width: 400px) {
+    #tribute-info {
+        margin: 5px 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #tribute-info {
+        margin: 5px 40px;
+    }
+}
+
+@media (max-width:800px) {
+    #tagline {
+        font-size: 1.4rem;
+    }
+}
