@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,800;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin  : 0;
+    padding : 0;
+    color   : #0f1816;
+}
+
+body, html {
+    background-color : #F7CAC9;
+    height           : 100vh
+}
+
+#description {
+    font-family : 'Kufam', cursive;
+    font-weight : 500;
+    font-size   : 20px;
+    color       : #239b89;
+    padding     : 0px 300px;
+}
+
+
+.form {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-evenly;
+    width           : 500px;
+    margin          : 70px auto;
+    border          : 2.5px;
+    border-style    : solid;
+    border-color    : #c9696e   ;
+    padding         : 20px;
+    border-radius   : 20px;
+    
+}
+
+
+
+#title {
+    margin      : 30px auto;
+    text-align  : center;
+    font-family : 'Kufam', cursive;
+    font-size   : 90px;
+    color       : #9b2335;
+}
+
+label {
+    margin-top     : 20px;
+    margin-bottom  : 5px;
+    font-family    : monospace;
+    font-size      : 20px;
+    font-weight    : 600;
+    color          : #4a3b41;
+    letter-spacing : 0.8px;
+}
+
+.submit {
+    margin           : 30px auto 10px;
+    width            : 150px;
+    background-color : #239b89;
+    cursor           : pointer;
+}
+
+#description {
+    text-align : center;
+}
+
+input {
+    background-color : #633b4b;
+    padding          : 10px;
+    border           : none;
+    color            : #dfdfdf;
+    font-family      : monospace;
+    font-size        : 15px;
+    min-height       : 1rem;
+    min-width        : 1rem;
+}
+
+
+
+footer {
+    text-align : center;
+    font-style : italic;
+    margin     : 20px;
+    color      : black;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color   : #b6e3bb;
+    opacity : 1;        /* Firefox */
+  }
+
+
+
+option {
+    color : #dfdfdf;
+
+}
+
+select {
+    padding          : 5px;
+    background-color : #633b4b ;
+    color            : #b6e3bb;
+    cursor           : pointer;
+}
+
+.cs1, .cs2, .labs {
+    margin-left : 10px;
+}
+
+textarea {
+    background-color : #633b4b;
+    color            : #dfdfdf;
+    padding          : 10px;
+    font-family      : monospace;
+    font-size        : 15px;
+}
+
+  @media (max-width: 960px) {
+      #description {
+          padding : 0px 50px;
+      }
+
+      .form {
+        
+        width  : auto;
+        margin : 70px 10px;
+      }
+  }
+
