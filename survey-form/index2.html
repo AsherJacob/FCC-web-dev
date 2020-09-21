@@ -22,10 +22,10 @@
                 <form class = "form" id = "survey-form" action = "">
 
                     <label id   = "name-label" for = "name">Name</label>
-                    <input type = "text" name      = "name" id = "name" placeholder = "Eg: John Doe">
+                    <input type = "text" name      = "name" id = "name" placeholder = "Eg: John Doe" required>
             
                     <label id   = "email-label" for = "email">Email</label>
-                    <input type = "email" name      = "email" id = "email" placeholder = "Eg: johndoe@gmail.com">
+                    <input type = "email" name      = "email" id = "email" placeholder = "Eg: johndoe@gmail.com" required>
         
                     <label id   = "number-label" for = "number">Phone No</label>
                     <input type = "number" name      = "phone" id = "number" min = "6282136415" max = "8921280776" placeholder = "Eg: 7656081897">
@@ -42,14 +42,14 @@
 
                     <label>Select your Batch</label>
 
-                    <label for = "cs1"><input type = "radio" name = "batch" id = "cs1"><span class = "cs1">CS-1</span></label>
-                    <label for = "cs2"><input type = "radio" name = "batch" id = "cs2"><span class = "cs2">CS-2</span></label>
+                    <label for = "cs1"><input type = "radio" name = "batch" id = "cs1" value="cs1"><span class = "cs1">CS-1</span></label>
+                    <label for = "cs2"><input type = "radio" name = "batch" id = "cs2" value="cs2"><span class = "cs2">CS-2</span></label>
 
                     <label>Choose your favorite labs</label>
 
-                    <label for = "foss"><input type = "checkbox" name = "labs" id = "foss"><span class = "labs">Free and Open Source Software</span></label>
-                    <label for = "DSA"><input type  = "checkbox" name = "labs" id = "DSA"><span class  = "labs">Data Structures and Algorithms</span></label>
-                    <label for = "CNS"><input type  = "checkbox" name = "labs" id = "CNS"><span class  = "labs">Networking</span></label>
+                    <label for = "foss"><input type = "checkbox" name = "labs" id = "foss" value="foss"><span class = "labs">Free and Open Source Software</span></label>
+                    <label for = "DSA"><input type  = "checkbox" name = "labs" id = "DSA" value="dsa"><span class  = "labs">Data Structures and Algorithms</span></label>
+                    <label for = "CNS"><input type  = "checkbox" name = "labs" id = "CNS" value="cns"><span class  = "labs">Networking</span></label>
 
                     <label    for  = "memory">If you would like, please mention some of your favorite memories in college</label>
                     <textarea name = "memory" id                = "memory" cols = "20" rows = "5"></textarea>
