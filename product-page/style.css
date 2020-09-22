@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 * {
-    margin  : 0;
-    padding : 0;
-    color   : white;
-    font-family: 'Poppins', sans-serif;
+    margin      : 0;
+    padding     : 0;
+    color       : #223133;
+    font-family : 'Poppins', sans-serif;
 }
 
-body {
-    background-color : #223133;
+html, body {
+    background-color : #F6F6F6;
+    height           : 100%;
 }
 
 
@@ -18,29 +19,51 @@ body {
 
    height          : 150px;
    justify-content : space-between;
-   align-items   : center;
+   align-items     : center;
 }
 
 .navbar {
-    display : inline;
-    padding: 10px;
-    text-transform: uppercase;
-    margin-right: 50px;
-    font-size: 1.1rem;
+    display        : inline;
+    padding        : 10px;
+    text-transform : uppercase;
+    margin-right   : 50px;
+    font-size      : 1.1rem;
     
 }
 
 a {
-    text-decoration: none;
+    text-decoration : none;
 }
 
 p {
-    text-align: center;
-    vertical-align: auto;
+    text-align     : center;
+    vertical-align : auto;
 }
 
 #header-image {
-    height: 3rem;
-    width: auto;
-    margin-left: 60px;
+    height      : 3rem;
+    width       : auto;
+    margin-left : 60px;
+}
+
+
+
+#nord {
+    max-width : 500px;
+    height    : auto;
+    margin    : auto;
+}
+
+.productImage {
+    float: right;
+     /* display: flex; */
+    /*justify-content: center; */
+    /* border-style: dotted;
+    border-color: white;
+    border-width: 10px; */
+}
+
+.navbar:hover {
+    text-decoration: underline;
+    
 }
