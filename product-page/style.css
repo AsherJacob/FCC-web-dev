@@ -274,3 +274,39 @@ footer {
 input:-internal-autofill-selected {
     background-color : #24484d;
 }
+
+@media (max-width: 960px ) {
+
+    #header {
+        width: 100vw;
+        height: 90px;
+    }
+    #header-image {
+        margin-left: 20px;
+    }
+
+    .navbar  {
+        padding: 10px;
+    }
+
+    #nav-bar {
+        margin-right: 15px;
+        margin-left: auto;
+        float: right;
+    }
+
+    .productButtons {
+        display: flex;
+        margin: 30px;
+    }
+
+    .buyNow, .seeOffers {
+        padding: 0px 5px;
+        height: 60px;
+    }
+
+    .productImage img {
+        width: 500px;
+        overflow: hidden;
+    }
+}
