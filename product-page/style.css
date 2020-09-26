@@ -7,11 +7,11 @@
 }
 
 * {
-    margin      : 0;
-    padding     : 0;
-    color       : #223133;
-    font-family : 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+    margin          : 0;
+    padding         : 0;
+    color           : #223133;
+    font-family     : 'Poppins', sans-serif;
+    scroll-behavior : smooth;
 }
 
 html, body {
@@ -141,26 +141,26 @@ a {
     animation-name            : titleBlink;
     animation-duration        : 2s;
     animation-iteration-count : infinite ;
-    letter-spacing: 5px;
+    letter-spacing            : 5px;
 
 }
 
 #specs {
     display               : grid;
     grid-template-columns : 50% 50%;
-    background-color: #181C14;
+    background-color      : #181C14;
 
    
 }
 
 #specs h2 {
     
-    vertical-align: center;
+    vertical-align : center;
     margin         : auto auto;
     font-size      : 3rem;
     text-transform : uppercase;
-    color: white;
-    letter-spacing: 5px;
+    color          : white;
+    letter-spacing : 5px;
 
 }
 
@@ -172,7 +172,7 @@ a {
 }
 
 #specs ul li {
-    color: white;
+    color : white;
 }
 
 #video {
@@ -181,18 +181,18 @@ a {
 
 #about h2 {
     margin         : 50px auto;
-    text-align: center;
+    text-align     : center;
     font-size      : 3rem;
     text-transform : uppercase;
-    letter-spacing: 5px;
+    letter-spacing : 5px;
 
 }
 
 #about p {
-    margin: 50px 200px;
-    text-align: justify;
-    font-size: 1.1rem;
-    line-height: 40px;
+    margin      : 50px 200px;
+    text-align  : justify;
+    font-size   : 1.1rem;
+    line-height : 40px;
 }
 
 #price {
@@ -205,21 +205,72 @@ a {
     margin         : auto auto;
     font-size      : 3rem;
     text-transform : uppercase;
-    letter-spacing: 5px;
+    letter-spacing : 5px;
 }
 
 #price p {
-    text-align: justify;
-    margin: 100px 150px;
-    line-height: 100px;
-    font-size: 1.2rem;
+    text-align  : justify;
+    margin      : 100px 150px;
+    line-height : 100px;
+    font-size   : 1.2rem;
 }
 
 footer {
-    font-style: italic;
-    text-align: center;
-    background-color: #1B0024 ;
-    color: white;
-    padding: 15px;
+    font-style       : italic;
+    text-align       : center;
+    background-color : #1B0024 ;
+    color            : white;
+    padding          : 15px;
     
+}
+
+.formContainer {
+    width  : 500px;
+    margin : auto;
+}
+
+#form {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    border-style   : ridge;
+    border-radius  : 5px;
+    border-width   : 5px;
+    border-color:  #EB0024;
+    margin         : 50px;
+    padding        : 20px;
+    width          : 450px;
+}
+
+#subscribe {
+    margin    : 10px;
+    font-size : 1.4rem;
+    
+}
+
+#email, #submit {
+    color  : black;
+    margin : 10px;
+}
+
+#email {
+
+    width            : 250px;
+    padding          : 5px;
+    /* background-color : #24484d; */
+    border           : none;
+}
+
+#submit {
+    width            : 100px;
+    padding          : 5px 5px;
+    border           : none;
+    border-radius    : 10px;
+    text-transform   : uppercase;
+    background-color : #29C9E1;
+}
+
+
+input:-internal-autofill-selected {
+    background-color : #24484d;
 }
