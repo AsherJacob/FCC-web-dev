@@ -29,7 +29,7 @@ html, body {
     
 }
 
-.navbar {
+.nav-link {
     display        : inline;
     text-transform : capitalize;
     font-size      : 1rem;
@@ -42,7 +42,7 @@ a {
     cursor          : pointer;
 }
 
-.navbar ul li {
+.nav-link ul li {
     cursor : pointer;
 }
 
@@ -53,7 +53,7 @@ a {
 }
 
 
-#header-image {
+#header-img {
     height      : 3rem;
     width       : auto;
     margin-left : 100px;
@@ -281,11 +281,11 @@ input:-internal-autofill-selected {
         width: 100vw;
         height: 90px;
     }
-    #header-image {
+    #header-img {
         margin-left: 20px;
     }
 
-    .navbar  {
+    .nav-link  {
         padding: 10px;
     }
 
